@@ -1,0 +1,75 @@
+[http]
+host = ""
+port = 3208
+
+[log]
+filePath = "/isoc/app/log/web.log"
+#debug info warn error fatal (日志级别从大到小)
+level  = "debug"
+#日志文件最大容量(单位：MB),超过容量，文件会自动分割
+maxSize = 100
+#保留的日志天数(单位：天)
+maxAge = 3650
+#保留的日志文件个数，文件数量超过该值，最旧的文件会被删除
+maxBackups = 100
+#日志输出采样率(1.0=全部输出)
+outputProbability = 1.0
+#是否输出到标准输出中
+toStdout = true
+
+[jwt]
+algorithm = "HS256" #jwt签名算法(可选:HS256 HS384 HS512)
+secretKey = "Y*b91AP_5^fl91+7mmt34f8cC*}r|evsU——feqaM>&HH" #签名key
+expireTime = 8640000 #token有效期(单位:秒)
+
+
+###【referer校验】
+### enable = true则会开启referer安全校验，请求必须有referer且必须在url列表中才会被通过
+### url数组中，配置了允许的referer
+[referer]
+enable = false
+url = [
+   '192.168.73.130:8888',
+]
+
+[db]
+dbName = "skygo_detection"
+hostName = "10.228.64.139"
+port = 2147
+userName = "skygo_detection"
+password = "05df42d112f90122"
+charset = "utf8"
+maxLifeTime = 30 #单个连接最大存活时间(单位:秒)
+maxIdleConnection = 10 #连接池中最大空闲连接数
+maxOpenConnection = 500 #连接池中最大连接数
+showSql = true
+
+[db.log]
+filePath = "./log/db.log"
+level = 0   #DEBUG=0 INFO=1 WARNING=2 ERR=3 OFF=4 UNKNOWN=5
+
+[es]
+user = ""
+password = ""
+host = ["http://127.0.0.1:9201"]
+
+[kafka]
+brokers = ["127.0.0.1:9092", "127.0.0.1:9093", "127.0.0.1:9094"]
+consumerGroup = "song"
+version = "2.1.1"
+
+[redis]
+addr = ["10.208.60.142:1545"]
+auth = "79aafaf404e9d38f"
+poolSize = 10 #集群模式下,配置单个节点的poolSize
+timeout=3000 #毫秒
+
+## 得到访问的url
+## curl http://zzc.qcm.qihoo.net/config?key=/15d2edf6ec22ba/mdb/md_7886
+## 10.220.138.77:7886,10.220.141.157:7886,10.220.141.158:7886
+[mongodb]
+username = "mongo"
+password = "73c9b59b61ec2647"
+dbname = "pm_online"
+qcmUrl = "http://zzc.qcm.qihoo.net/config"
+qcmKey = "/15d2edf6ec22ba/mdb/md_7886"

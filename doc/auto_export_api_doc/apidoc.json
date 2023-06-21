@@ -1,0 +1,11 @@
+{
+  "name": "工业SOC服务接口",
+  "version": "1.0.0",
+  "description": "工业SOC服务接口Api文档",
+  "url" : "http://industry.isoc.360.cn",
+  "sampleUrl": "http://industry.isoc.360.cn",
+  "template": {
+  	"withCompare": true,
+  	"withGenerator": true
+  }
+}

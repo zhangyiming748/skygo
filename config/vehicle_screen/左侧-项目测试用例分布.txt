@@ -1,0 +1,20 @@
+{
+    "data":[
+        {
+            "name":"E115海外版",
+            "test_case_count":2030
+        },
+        {
+            "name":"C100",
+            "test_case_count":2102
+        },
+        {
+            "name":"E115",
+            "test_case_count":2360
+        },
+        {
+            "name":"C229",
+            "test_case_count":687
+        }
+    ]
+}

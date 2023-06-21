@@ -1,0 +1,77 @@
+[http]
+host = ""
+port = 9401
+
+[log]
+filePath = "./log/web.log"
+#debug info warn error fatal (日志级别从大到小)
+level  = "debug"
+#日志文件最大容量(单位：MB),超过容量，文件会自动分割
+maxSize = 100
+#保留的日志天数(单位：天)
+maxAge = 3650
+#保留的日志文件个数，文件数量超过该值，最旧的文件会被删除
+maxBackups = 100
+#日志输出采样率(1.0=全部输出)
+outputProbability = 1.0
+#是否输出到标准输出中
+toStdout = false
+
+[jwt]
+algorithm = "HS256" #jwt签名算法(可选:HS256 HS384 HS512)
+secretKey = "Y*b91AP_5^fl91+7mmt34f8cC*}r|evsU——feqaM>&HH" #签名key
+expireTime = 8640000 #token有效期(单位:秒)
+
+
+###【referer校验】
+### enable = true则会开启referer安全校验，请求必须有referer且必须在url列表中才会被通过
+### url数组中，配置了允许的referer
+[referer]
+enable = false
+url = [
+   '192.168.73.130:8888',
+]
+
+[db]
+dbName = "detect_beta"
+hostName = "10.228.64.139"
+port = 2147
+userName = "detect_beta"
+password = "30ee86fa502f36c0"
+charset = "utf8"
+maxLifeTime = 30 #单个连接最大存活时间(单位:秒)
+maxIdleConnection = 10 #连接池中最大空闲连接数
+maxOpenConnection = 500 #连接池中最大连接数
+showSql = true
+
+[db.log]
+filePath = "./log/db.log"
+level = 0   #DEBUG=0 INFO=1 WARNING=2 ERR=3 OFF=4 UNKNOWN=5
+
+[redis]
+addr = ["10.208.44.35:1891"]
+auth = "002d4e900b84afda"
+poolSize = 10 #集群模式下,配置单个节点的poolSize
+timeout=3000 #毫秒
+
+### 8100用的数据库
+[mongodb]
+host = "10.203.172.169"
+port = 2727
+username = "mongo"
+password = "0ceefdb4062986f2"
+dbname = "detect_beta"
+
+[vehicleScreen]
+isSqlite = false
+filePath = "/src/config/vehicle_screen"
+
+[firmware]
+scanHost = "http://10.220.189.210:8080"
+adminHost = "http://10.220.185.45:9400"
+
+[download]
+downloadPath = "./download"
+
+[license]
+path = "./license.lic"

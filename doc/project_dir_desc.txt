@@ -1,0 +1,41 @@
+common 公共常量目录
+	proto 存储rpc定义的文件
+	cli_flag.go 命令行启动参数 都已CliFlag* 开头
+	const.go 公共常量 比如 curl的超时时间默认值
+	kafka_topic.go kafka的topic的名称
+	micro_service.go 微服务名称
+	redis_key.go reids的业务key说明 注意注释时加上过期策略
+config 配置文件目录
+	online 线上环境配置路径
+	qa qa环境配置路径
+	dev 默认开发环境配置路径
+	开发者1_dev 开发者1对应配置文件
+	开发者2_dev 开发者2对应配置文件
+custom_error 业务错误码目录
+custom_util 业务公共组件目录
+	clog 业务日志公共组件目录 当要给单个业务编写日志时建立对应名称
+		log.go 通用日志函数
+	common_func.go 公共方法
+doc 文档目录
+	sql 数据库sql文件目录
+	auto_export_api_doc 自动导出api文档目录
+es_model es相关model文件目录
+pg_model pg相关model文件目录
+redis_model redis相关model文件目录
+logic 逻辑层代码目录
+http http模块目录
+	api_config 生成控制器模板文件目录
+	bootstrap 启动相关文件目录
+	controller 控制器目录
+	middleware 中间件目录
+	resource url绑定资源文件目录
+	wrap_error
+	http_main.go http入口文件
+
+log 开发环境日志存储位置目录， 直接git无视即可
+service 资源组件初始化目录
+vendor 第三方包目录
+main.go 程序入口文件
+
+启动web端 go run main.go http -c ./config/sbc_dev/
+启动console  go run main.go console -c ./config/sbc_dev/

@@ -1,0 +1,88 @@
+{
+    "data":[
+        {
+            "name":"EMMC固件提取测试",
+            "asset_name":"IVI",
+            "update_time":"2021-08-23 09:00",
+            "last_op_name":"孙琦",
+            "vul":[
+                {
+                    "name":"EMMC固件提取漏洞",
+                    "level":1
+                }
+            ]
+        },
+        {
+            "name":"升级包加密测试",
+            "asset_name":"IVI",
+            "update_time":"2021-08-23 11:20",
+            "last_op_name":"边泽宇",
+            "vul":[
+                {
+                    "name":"升级包数据泄露",
+                    "level":1
+                }
+            ]
+        },
+        {
+            "name":"垂直越权漏洞测试",
+            "asset_name":"IVI",
+            "update_time":"2021-08-23 15:10",
+            "last_op_name":"刘俭",
+            "vul":[
+                {
+                    "name":"垂直越权漏洞",
+                    "level":2
+                }
+            ]
+        },
+        {
+            "name":"水平越权漏洞测试",
+            "asset_name":"APP",
+            "update_time":"2021-08-24 08:42",
+            "last_op_name":"孙琦",
+            "vul":[
+                {
+                    "name":"水平越权漏洞",
+                    "level":3
+                }
+            ]
+        },
+        {
+            "name":"隐私数据测试",
+            "asset_name":"TBOX",
+            "update_time":"2021-08-24 09:52",
+            "last_op_name":"刘俭",
+            "vul":[
+                {
+                    "name":"隐私数据泄露",
+                    "level":1
+                }
+            ]
+        },
+        {
+            "name":"未授权应用检测测试",
+            "asset_name":"TBOX",
+            "update_time":"2021-08-24 10:33",
+            "last_op_name":"边泽宇",
+            "vul":[
+                {
+                    "name":"未授权应用执行漏洞",
+                    "level":1
+                }
+            ]
+        },
+        {
+            "name":"APP调试测试",
+            "asset_name":"APP",
+            "update_time":"2021-08-24 16:33",
+            "last_op_name":"孙琦",
+            "vul":[
+                {
+                    "name":"APP调试漏洞",
+                    "level":1
+                }
+            ]
+        }
+    ]
+}

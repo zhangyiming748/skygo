@@ -1,0 +1,29 @@
+{"level":"info","ts":1648545219.3396285,"msg":"iptables","request:":{"iface":"wlo1"},"responds:":""}
+{"level":"info","ts":1648545221.5318377,"msg":"config","request:":{"id":2},"responds:":""}
+{"level":"info","ts":1648547055.0186167,"msg":"iptables","request:":{"iface":"wlo1"},"responds:":""}
+{"level":"info","ts":1648547057.2371979,"msg":"config","request:":{"id":3},"responds:":""}
+{"level":"info","ts":1648612722.1239169,"msg":"iptables","request:":{"iface":"wlo1"},"responds:":""}
+{"level":"info","ts":1648622809.694303,"msg":"ueinfo","request:":{},"responds:":"{\"status\": false, \"message_id\": 2, \"message\": \"System is not running.\", \"infos\": []}"}
+{"level":"info","ts":1648623823.2689102,"msg":"iptables","request:":{"iface":"wlo1"},"responds:":"{\"status\": true, \"message_id\": 1, \"message\": \"Success\"}"}
+{"level":"info","ts":1648623823.456552,"msg":"config","request:":{"id":3},"responds:":"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"}
+{"level":"info","ts":1648623948.1806986,"msg":"iptables","request:":{"iface":"wlo1"},"responds:":"{\"status\": true, \"message_id\": 1, \"message\": \"Success\"}"}
+{"level":"info","ts":1648623948.3569705,"msg":"config","request:":{"id":3},"responds:":"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"}
+{"level":"info","ts":1648624091.9455364,"msg":"iptables","request:":{"iface":"wlo1"},"responds:":"{\"status\": true, \"message_id\": 1, \"message\": \"Success\"}"}
+{"level":"info","ts":1648624092.1192613,"msg":"config","request:":{"id":3},"responds:":"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"}
+{"level":"info","ts":1648624414.916266,"msg":"iptables","request:":{"iface":"wlo1"},"responds:":"{\"status\": true, \"message_id\": 1, \"message\": \"Success\"}"}
+{"level":"info","ts":1648624415.0928237,"msg":"config","request:":{"id":3},"responds:":"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"}
+{"level":"info","ts":1648624521.8284876,"msg":"iptables","request:":{"iface":"wlo1"},"responds:":"{\"status\": true, \"message_id\": 1, \"message\": \"Success\"}"}
+{"level":"info","ts":1648624522.0568645,"msg":"config","request:":{"id":3},"responds:":"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"}
+{"level":"info","ts":1648624599.5430593,"msg":"iptables","request:":{"iface":"wlo1"},"responds:":"{\"status\": true, \"message_id\": 1, \"message\": \"Success\"}"}
+{"level":"info","ts":1648624599.7111447,"msg":"config","request:":{"id":3},"responds:":"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"}
+{"level":"info","ts":1648626386.9568748,"msg":"iptables","request:":{"iface":"wlo1"},"responds:":"{\"status\": true, \"message_id\": 1, \"message\": \"Success\"}"}
+{"level":"info","ts":1648626387.1964438,"msg":"config","request:":{"id":3},"responds:":"{\"status\": true, \"message_id\": 1, \"message\": \"Success, please start system manually.\"}"}
+{"level":"info","ts":1648626387.196985,"msg":"config","gsmSystemStandResp:":{"status":true,"message_id":1,"message":"Success, please start system manually."}}
+{"level":"info","ts":1648626387.3385623,"msg":"iptables","request:":{"iface":"wlo1"},"responds:":"{\"status\": true, \"message_id\": 1, \"message\": \"Success\"}"}
+{"level":"info","ts":1648626400.207556,"msg":"start","request:":{},"responds:":"{\"status\": true, \"message_id\": 1, \"message\": \"Start successfully\"}"}
+{"level":"info","ts":1648630727.461223,"msg":"iptables","request:":{"iface":"wlo1"},"responds:":"{\"status\": true, \"message_id\": 1, \"message\": \"Success\"}"}
+{"level":"info","ts":1648630730.7151556,"msg":"config","request:":{"id":3},"responds:":"{\"status\": true, \"message_id\": 1, \"message\": \"Success, please start system manually.\"}"}
+{"level":"info","ts":1648630730.7151556,"msg":"config","gsmSystemStandResp:":{"status":true,"message_id":1,"message":"Success, please start system manually."}}
+{"level":"info","ts":1648630730.862148,"msg":"iptables","request:":{"iface":"wlo1"},"responds:":"{\"status\": true, \"message_id\": 1, \"message\": \"Success\"}"}
+{"level":"info","ts":1648630743.72623,"msg":"start","request:":{},"responds:":"{\"status\": true, \"message_id\": 1, \"message\": \"Start successfully\"}"}
+{"level":"info","ts":1648630855.0806797,"msg":"stop","request:":{},"responds:":"{\"status\": true, \"message_id\": 1, \"message\": \"Stop successfully.\"}"}

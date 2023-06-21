@@ -1,0 +1,28 @@
+{
+    "data":[
+        {
+            "vul_name":"垂直提权漏洞",
+            "vul_level":"2",
+            "vul_status":"1",
+            "asset_name":"IVI"
+        },
+        {
+            "vul_name":"水平提权漏洞",
+            "vul_level":"3",
+            "vul_status":"1",
+            "asset_name":"APP"
+        },
+        {
+            "vul_name":"升级包数据加密",
+            "vul_level":"1",
+            "vul_status":"1",
+            "asset_name":"TBOX"
+        },
+        {
+            "vul_name":"隐私数据泄露",
+            "vul_level":"1",
+            "vul_status":"0",
+            "asset_name":"TBOX"
+        }
+    ]
+}

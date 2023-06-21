@@ -1,0 +1,7 @@
+syntax = "proto3";
+//Response
+message Response {
+    int32 code = 1;
+    string msg = 2;
+    string data = 3;//原data体转换后的json串
+}

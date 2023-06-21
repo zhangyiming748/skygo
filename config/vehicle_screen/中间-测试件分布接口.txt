@@ -1,0 +1,29 @@
+{
+    "data":[
+        {
+            "name":"IVI",
+            "vehicle":"E115海外版",
+            "start_time":"2021-06-01 00:00",
+            "last_op_name":"孙琦"
+        },
+        {
+            "name":"TBOX",
+            "vehicle":"E115海外版",
+            "start_time":"2021-08-01 00:00",
+            "last_op_name":"刘俭"
+        },
+        {
+            "name":"IVI",
+            "vehicle":"C100",
+            "start_time":"2021-09-01 00:00",
+            "last_op_name":"边泽宇"
+        },
+        {
+            "name":"TBOX",
+            "vehicle":"C100",
+            "start_time":"2021-10-01 00:00",
+            "last_op_name":"孙琦"
+        }
+    ]
+}
+

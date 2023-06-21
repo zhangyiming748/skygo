@@ -1,0 +1,76 @@
+package common
+
+const MC_FACTORY = "factory"                                         // mongodb collection:车厂
+const MC_File = "project"                                            // mongodb collection:文件表
+const MC_PROJECT_File = "project_file"                               // mongodb collection:项目文档
+const MC_PROJECT = "project"                                         // mongodb collection:项目
+const MC_PROJECT_TASK_INFO = "project_task_info"                     // mongodb collection:项目任务信息
+const MC_EVALUATE = "evaluate"                                       // mongodb collection:设备冗余表
+const MC_EVALUATE_TASK = "evaluate_task"                             // mongodb collection:项目任务表
+const MC_EVALUATE_TASK_ITEM = "evaluate_task_item"                   // mongodb collection:项目任务用例关系表
+const MC_EVALUATE_TASK_NODE = "evaluate_task_node"                   // mongodb collection:项目任务阶段记录表
+const MC_EVALUATE_ASSET = "evaluate_asset"                           // mongodb collection:安全评估资产
+const MC_EVALUATE_ASSET_VERSION = "evaluate_asset_version"           // mongodb collection:安全评估资产版本记录表
+const MC_EVALUATE_MATERIEL = "evaluate_materiel"                     // mongodb collection:安全评估物料
+const MC_EVALUATE_TYPE = "evaluate_type"                             // mongodb collection:评估项类型
+const MC_EVALUATE_VUL_TYPE = "evaluate_vul_type"                     // mongodb collection:漏洞类型
+const MC_EVALUATE_VUL = "valuate_vul"                                // mongodb collection:评估漏洞
+const MC_EVALUATE_VUL_RETEST = "valuate_vul_retest"                  // mongodb collection:评估漏洞复测
+const MC_EVALUATE_ITEM = "evaluate_item"                             // mongodb collection:测试用例
+const MC_EVALUATE_RECORD = "evaluate_record"                         // mongodb collection:测试记录
+const MC_REPORT = "project_report"                                   // mongodb collection:报告
+const MC_REPORT_PHASE = "project_report_phase"                       // mongodb collection:报告阶段
+const MC_REPORT_NODE = "project_report_node"                         // mongodb collection:报告审核节点
+const MC_POTENTIAL_PROJECT = "potential_project"                     // mongodb collection:项目
+const MC_EVALUATE_VULNERABILITY = "evaluate_vulnerability"           // mongodb collection:评估漏洞
+const MC_EVALUATE_VULNERABILITY_LOG = "evaluate_vulnerability_log"   // mongodb collection:评估漏洞日志
+const MC_EVALUATE_TASK_VULNERABILITY = "evaluate_task_vulnerability" // mongodb collection:评估任务漏洞
+const MC_EVALUATE_MODULE = "evaluate_module"                         // mongodb collection:测试组件
+const MC_EvaluateModuleTemplate = "evaluate_module_template"         // mongodb collection:测试组件模板
+const MC_TEST_CASE = "evaluate_test_case"                            // mongodb collection:测试用例
+const MC_TEST_CASE_CONTENT = "evaluate_test_case_content"            // mongodb collection:测试用例变更记录
+const MC_TOOL = "tool"                                               // mongodb collection:测试工具库
+const MC_TOOL_TASK = "tool_task"                                     // mongodb collection:测试工具库
+const MC_TOOL_TASK_RESULT_BIND_TEST = "tool_task_result_bind_test"   // mongodb collection:测试工具库
+const MC_GSF_TOOL = "tool"                                           // mongodb collection:文件表
+const MC_FIRMWARE_UPLOAD_LOG = "firmware_upload_log"                 // mongodb collection:固件扫描日志
+const MC_FIRMWARE_RTS_BINARY = "firmware_rts_binary"                 // mongodb collection:固件扫描二进制
+const MC_FIRMWARE_RTS_CERT = "firmware_rts_cert"                     // mongodb collection:固件扫描证书
+const MC_FIRMWARE_RTS_CVE = "firmware_rts_cve"                       // mongodb collection:固件扫描CVE漏洞
+const MC_FIRMWARE_RTS_ELF = "firmware_rts_elf"                       // mongodb collection:固件扫描elf信息
+const MC_FIRMWARE_RTS_INIT = "firmware_rts_init"                     // mongodb collection:固件扫描初始化信息
+const MC_FIRMWARE_RTS_LEAKS = "firmware_rts_leaks"                   // mongodb collection:固件扫描数敏感信息
+const MC_FIRMWARE_RTS_PWD = "firmware_rts_pwd"                       // mongodb collection:固件扫描密码
+const MC_FIRMWARE_RTS_LINUX = "firmware_rts_linux"                   // mongodb collection:固件扫描Linux基线检查
+const MC_FIRMWARE_RTS_APK = "firmware_rts_apk"                       // mongodb collection:固件扫描APK检查
+const MC_FIRMWARE_RTS_APK_SENSITIVE = "firmware_rts_apk_sensitive"   // mongodb collection:固件扫描APK敏感信息
+const MC_FIRMWARE_RTS_APK_VUL = "firmware_rts_apk_vul"               // mongodb collection:固件扫描APK风险信息
+const MC_FIRMWARE_RTS_SOURCE = "firmware_rts_source"                 // mongodb collection:固件扫描数据源
+const MC_FIRMWARE_SCRIPT_TASK = "firmware_script_task"               // mongodb collection:固件脚本任务日志
+const MC_FIRMWARE_RTS_CATEGORY = "firmware_rts_category"             // mongodb collection:固件扫描所有字段的状态
+const MC_FIRMWARE_RTS_TOTAL_BINARY = "firmware_rts_total_binary"     // mongodb collection:固件扫描二进制统计
+// const MC_FIRMWARE_RTS_APK = "firmware_rts_apk"                       // mongodb collection:固件扫描APK Info表
+const MC_FIRMWARE_RTS_APK_SENITIVE = "firmware_rts_apk_sensitive" // mongodb collection:固件扫描二进制敏感信息
+
+const MC_FIRMWARE_RTS_TOTAL_CVE = "firmware_rts_total_cve"     // mongodb collection:固件扫描CVE统计
+const MC_FIRMWARE_RTS_TOTAL_LINUX = "firmware_rts_total_linux" // mongodb collection:固件扫描Linux基线检查统计
+const MC_FIRMWARE_RTS_TOTAL_CERT = "firmware_rts_total_cert"   // mongodb collection:固件扫描证书统计
+const MC_FIRMWARE_RTS_TOTAL_RISK = "firmware_rts_total_risk"   // mongodb collection:固件扫描风险统计
+const MC_FIRMWARE_RTS_TOTAL_LEVEL = "firmware_rts_total_level" // mongodb collection:固件扫描等级统计
+const MC_FIRMWARE_RTS_TOTAL_ELF = "firmware_rts_total_elf"     // mongodb collection:ELF统计
+const MC_FIRMWARE_RTS_TOTAL_INIT = "firmware_rts_total_init"   // mongodb collection: INIT统计
+const MC_FIRMWARE_RTS_TOTAL_APK = "firmware_rts_total_apk"     // mongodb collection: APK统计
+
+const MC_EVALUATE_VUL_SCANNER = "evaluate_vul_scanner"         // mongodb collection:评估漏洞扫描检测
+const MC_EVALUATE_VUL_TASK = "evaluate_vul_task"               // mongodb collection:评估漏洞扫描任务
+const MC_EVALUATE_VUL_INFO = "evaluate_vul_info"               // mongodb collection:评估漏洞信息
+const MC_EVALUATE_VUL_DEVICE_INFO = "evaluate_vul_device_info" // mongodb collection:评估漏洞系统信息
+const MC_TOOl_TASK_LOOPHOLE = "tool_task_loophole"             // mongodb collection:评估漏洞系统信息
+const MC_SCANNER_TASK = "scanner_task"                         // mongodb collection:自动化扫描任务
+const MC_SCANNER_TASK_LOG = "scanner_task_log"                 // mongodb collection:自动化扫描任务日志
+
+const McHgTestTask = "hg_test_task"         // mongodb collection:合规测试 - 任务
+const McHgTestTemplate = "hg_test_template" // mongodb collection:合规测试 - 测试模板
+const McHgTestCase = "hg_test_case"         // mongodb collection:合规测试 - 测试用例
+
+const Hydra = "hydra" // 密码爆破工具保存字典文件
